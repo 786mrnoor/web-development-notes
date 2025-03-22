@@ -1,6 +1,6 @@
 # JavaScript Fundamentals
 
-- **Data Types**: `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`, and objects.
+- [**Data Types:**](data-types.md) `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`, and objects.
 
 - **Hoisting**: How variables and functions are hoisted in JavaScript.
 
