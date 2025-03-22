@@ -34,12 +34,11 @@ console.log(a);
 🔹 **`let` and `const` are hoisted but NOT initialized.**  
 
 🔹 **They exist in the "Temporal Dead Zone (TDZ)" until their declaration is encountered.**
+
 ```js
 console.log(b); // ❌ ReferenceError: Cannot access 'b' before initialization
 let b = 20;
-```
-**Same for `const`:**
-```js
+
 console.log(c); // ❌ ReferenceError
 const c = 30;
 ```
@@ -48,8 +47,10 @@ const c = 30;
 
 ---
 
-## **3️⃣ Hoisting with Functions**
+## 3️⃣ Hoisting with Functions
+
 🔹 **Function declarations are fully hoisted** (both name & body).  
+
 ```js
 greet(); // ✅ Works: "Hello"
 function greet() {
@@ -66,7 +67,7 @@ var hello = function() {
 
 ---
 
-## **4️⃣ Summary**
+## 4️⃣ Summary
 | Type          | Hoisted? | Initialized? | Can Use Before Declaration? |
 |--------------|----------|--------------|-----------------------------|
 | `var`        | ✅ Yes   | ❌ No (gets `undefined`) | ✅ Yes (but `undefined`) |
@@ -80,5 +81,3 @@ var hello = function() {
 ✔ **`var` is hoisted but initialized as `undefined`.**  
 ✔ **`let` & `const` are hoisted but in TDZ, causing a ReferenceError if accessed before declaration.**  
 ✔ **Function declarations are fully hoisted, but function expressions are not.**  
-
-🚀 Would you like a real-world example or a Markdown version for GitHub?
