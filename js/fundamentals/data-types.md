@@ -9,7 +9,17 @@ JavaScript has **two categories** of data types:
 - ✅ **Boolean** – `true` or `false`  
 - ✅ **Undefined** – Variable declared but not assigned (`let x;`)  
 - ✅ **Null** – Explicitly empty value (`let y = null;`)  
-- ✅ **Symbol** – Unique identifier (`Symbol("id")`)  
+- ✅ **Symbol** – Unique identifier (`Symbol("id")`)
+    
+    ✔ Symbols are always unique (even if they have the same description).
+    
+    ✔ Used as object keys to prevent property conflicts.
+    
+    ✔ Not enumerable in loops (for...in, Object.keys()).
+    
+    ✔ Global Symbols (Symbol.for()) can be shared across files.
+    
+    ✔ Well-Known Symbols allow customization of object behavior.
 
 ---
 
