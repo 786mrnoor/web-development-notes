@@ -6,7 +6,7 @@
 
 - [**Scope & Closures:**](scope-and-closures.md) `var`, `let`, `const`, function scope vs. block scope.
 
-- **Event Loop & Asynchronous JavaScript**: Understanding `setTimeout`, `setInterval`, `Promise`, `async/await`, and the event loop.
+- [**Event Loop & Asynchronous JavaScript:**](event-loop-and-asynchronous-javascript.md) Understanding `setTimeout`, `setInterval`, `Promise`, `async/await`, and the event loop.
 
 - **This Keyword & Binding**: `call()`, `apply()`, `bind()`, arrow functions.
 
