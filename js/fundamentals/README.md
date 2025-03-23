@@ -4,7 +4,7 @@
 
 - [**Hoisting:**](hoisting.md) How variables and functions are hoisted in JavaScript.
 
-- **Scope & Closures**: `var`, `let`, `const`, function scope vs. block scope.
+- [**Scope & Closures:**](scope-and-closures.md) `var`, `let`, `const`, function scope vs. block scope.
 
 - **Event Loop & Asynchronous JavaScript**: Understanding `setTimeout`, `setInterval`, `Promise`, `async/await`, and the event loop.
 
