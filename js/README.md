@@ -6,9 +6,9 @@ If you're preparing for a JavaScript interview, here are the key areas you shoul
 
 ## [2. Advanced JavaScript](advanced/README.md)
 
-## [3. Asynchronous JavaScript](asynchronous/README.md)
+## [3. Object-Oriented JavaScript](object-oriented/README.md)
 
-## [4. Object-Oriented JavaScript](object-oriented/README.md)
+## [4. Asynchronous JavaScript](asynchronous/README.md)
 
 ## [5. JavaScript in the Browser](js-in-browser/README.md)
 
