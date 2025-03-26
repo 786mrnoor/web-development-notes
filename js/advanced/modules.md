@@ -1,6 +1,6 @@
 # Modules
 
-**Modules** are **reusable code**  that can be **imported** and used in other parts of a program. It **hide**(encapsulation) internal implementation details
+**Modules** are **reusable code**  that can be **imported** and used in other parts of a program. It **hide**(encapsulation) internal implementation details.
 
 ## 1. CommonJS (CJS) Modules: 
 - used in Node.js environments.

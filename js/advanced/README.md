@@ -1,6 +1,6 @@
 # Advanced JavaScript
 
-- [**ES6+ Features:**](es6plus-features.md)  Destructuring, spread/rest operators, template literals, default parameters, etc.
+- [**ES6+ Features:**](es6plus-features.md)  Arrow Functions, template literals, Destructuring, spread & rest operators, default parameters, optional chaining and nullish coalescing.
 
 - [**Modules & Import/Export:**](modules.md)
  
@@ -9,6 +9,7 @@
 - [**Event Delegation & Bubbling:**](event-delefation-and-bubbling.md) Capturing and bubbling phases in the DOM.
 
 - [**Debouncing & Throttling:**](debounce-and-throttling.md) Performance optimization techniques.
+
 - **Recursion**: Recursion is when a function calls itself until a base condition is met.
 ```js
 function factorial(n) {
