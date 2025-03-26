@@ -7,14 +7,14 @@ ES6 (ECMAScript 2015) and later versions introduced powerful features that impro
 ## **1️⃣ Arrow Functions (=>)**
 - **Arrow functions provide a cleaner and shorter syntax.**
 - They inherit `this` from the surrounding scope.
-- Do not have `arguments`, `super`, or `new` keyword.
+- They dDo not support `arguments`, `super`, and `new` keyword.
 - Avoid in object methods & constructors.
 
 ---
 
-## **2️⃣ Template Literals (` `)**
-- Multi-line strings & variable interpolation.
-- Templates are strings enclosed in backticks (`This is a template string`).
+## **2️⃣ Template Literals (\` `)**
+- Templates literals are strings enclosed in backticks (\``This is a template string`\`).
+- It support multi-line strings & variable interpolation.
 - Templates allow single and double quotes inside a string:
 
 🔹 **Example:**
@@ -26,7 +26,7 @@ console.log(`Hello, ${name}!`); // ✅ Hello, Alice!
 ---
 
 ## **3️⃣ Destructuring (Arrays & Objects)**
-- The destructuring assignment syntax unpack `object` and `arrays` properties into variables:  
+- It is used to unpack `object` and `arrays` properties into variables:  
 
 🔹 **Array Destructuring:**
 ```js
@@ -44,7 +44,7 @@ const { name, age } = person; // ✅ name = "John", age = 25
 
 ## **4️⃣ Spread & Rest Operators (`...`)**
 ### **4.1 Spread Operator (`...`)**
-- Expands `arrays` and `objects`.  
+- Expands `arrays` and `objects` into individual elements.  
 
 🔹 **Example:**
 ```js
@@ -56,7 +56,8 @@ const obj2 = { ...obj1, c: 3 }; // ✅ { a: 1, b: 2, c: 3 }
 ```
 
 ### **4.2 Rest Operator (`...`)**
-- Gathers multiple arguments into an array.  
+- Gathers multiple arguments into an array.
+-  It is used in function parameter lists to collect the remaining or indefinite number of arguments into an array. 
 
 🔹 **Example:**
 ```js
