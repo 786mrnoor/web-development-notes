@@ -2,7 +2,7 @@
 
 - [**ES6+ Features:**](es6plus-features.md)  Arrow Functions, template literals, Destructuring, spread & rest operators, default parameters, optional chaining and nullish coalescing.
 
-- [**Modules & Import/Export:**](modules.md)
+- [**Modules & Import/Export:**](modules.md) CommonJS, ESModules.
  
 - [**Higher-Order Functions:**](higher-order-functions.md) `map()`, `filter()`, `reduce()`, `sort()`, etc.
 
