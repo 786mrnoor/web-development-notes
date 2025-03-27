@@ -4,8 +4,8 @@
 
 - [**Prototype & Inheritance:**](prototype-and-inheritence.md) Understanding prototype chains and object inheritance.
 
-- **Encapsulation & Polymorphism**: Getters, setters, and method overriding
+- [**Encapsulation & Polymorphism:**](encapsulation-and-polymorphism.md) Getters, setters, and method overriding
 
-- **Factory & Singleton Patterns**: Design patterns in JS
+- [**Factory & Singleton Patterns:**](factory-and-singleton-patterns.md) Design patterns in JS
 
-- **This Keyword & Binding**: `call()`, `apply()`, `bind()`, arrow functions.
+- [**This Keyword & Binding:**](this-and-binding.md) `call()`, `apply()`, `bind()`, arrow functions.
