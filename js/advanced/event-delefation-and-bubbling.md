@@ -1,12 +1,12 @@
 # **Event Delegation & Bubbling in JavaScript** 🚀  
 
 ## **What is Event Bubbling?**
-When an event happens on an element, it **bubbles up** (propagates) to its parent, then grandparent, etc.
+When an event happens on an element, it **bubbles up** (propagates) to its parent, then grandparent, to the `window` object.
 
 ---
 
 ## **What is Event Delegation?**
-**Event Delegation** is a pattern in JavaScript where you **attach a single event listener** to a parent element **instead of multiple child elements**. The event **bubbles up** from the child to the parent, allowing efficient event handling.   
+**Event Delegation** is a pattern in JavaScript where we **attach a single event listener** to a parent element **instead of multiple child elements**. The event **bubbles up** from the child to the parent, allowing efficient event handling.   
 
 
 ## **How Does Event Delegation Work?**

@@ -1,5 +1,5 @@
 # Next JS
-Next.js is a popular React framework for building fast and scalable web applications. It offers features like:  
+Next.js is a React framework for building fast and scalable fullstack web applications. It offers features like:  
 
 ✅ **Server-side rendering (SSR)** and **static site generation (SSG)**  
 ✅ **API routes** for backend functionality  
@@ -11,9 +11,6 @@ Next.js is a popular React framework for building fast and scalable web applicat
 
 ## [2. Folder Structure](folder-structure.md)
 
-## Server Components
+## [3. Data Fetching](.md)
 
-## Client Components
-
-## Server Side Pre-Rendering
-
+## [4. Rendering](rendering/README.md)

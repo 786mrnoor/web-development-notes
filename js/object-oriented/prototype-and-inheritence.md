@@ -17,7 +17,7 @@ console.log(Object.getPrototypeOf(obj)); // ✅ Outputs: {} (Object.prototype)
 ---
 
 ## **2️⃣ Prototype Chain**
-When you access a property on an object:
+When we access a property on an object:
 1. JavaScript **first checks** if the property exists on the object.  
 2. If **not found**, it moves **up the prototype chain** to the object's prototype.  
 3. This process continues until it reaches `Object.prototype`, which is the top of the chain.  

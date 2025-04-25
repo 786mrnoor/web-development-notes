@@ -79,6 +79,17 @@ export default function BlogPost({ params }: { params: { id: string } }) {
 ```
 
 ---
+### ✅ **3. Route Groups**
+- Wrap folder names in parenthesis `(auth)` 
+- Example: `app/(auth)/login/page.tsx` → `/login`.  
+- It does not impact the `URL` path
+---
+
+### ✅ **3. Error & Global Error**
+- Wrap folder names in parenthesis `(auth)` 
+- Example: `app/(auth)/login/page.tsx` → `/login`.  
+- It does not impact the `URL` path
+---
 
 ### ✅ **4. API Routes (`route.ts`)**
 API routes are now inside `/app/api/*`.  
