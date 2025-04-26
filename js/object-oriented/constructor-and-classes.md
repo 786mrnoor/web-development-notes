@@ -7,7 +7,9 @@ JavaScript provides two ways to create objects using **constructors**:
 ---
 
 ## **1️⃣ Constructor Functions (ES5)**
-Before ES6, object creation was done using **constructor functions**.
+A constructor function in JavaScript is used to create objects. It defines the properties and methods that an object of that type will have. Constructor functions are called using the `new` keyword. By convention, constructor functions are named starting with a capital letter.
+
+ **constructor functions**.
 
 🔹 **Example: ES5 Constructor Function**
 ```js
@@ -31,6 +33,10 @@ console.log(alice.greet()); // ✅ Output: Hello, my name is Alice.
 ## **2️⃣ ES6 Classes**
 ES6 introduced the `class` keyword, which makes object-oriented programming **cleaner and more readable**.
 
+A class in JavaScript is a blueprint for creating objects. It encapsulates data and methods that operate on that data within a single unit.
+
+JavaScript classes are syntactic sugar over the prototype-based inheritance model, meaning they are built on top of prototypes.
+
 🔹 **Example: ES6 Class**
 ```js
 class Person {
@@ -52,18 +58,8 @@ console.log(bob.greet()); // ✅ Output: Hello, my name is Bob.
 
 ---
 
-## **3️⃣ Differences: ES5 vs. ES6 Classes**
-| Feature | Constructor Functions (ES5) | ES6 Classes |
-|---------|----------------------|-------------|
-| Syntax | Function-based | `class` keyword |
-| Inheritance | **Prototype-based** | `extends` & `super` |
-| Method Declaration | **Manually** added to prototype | **Defined inside class** |
-| `new` Keyword | Required | Required |
-| Readability | Less readable | More readable |
 
----
-
-## **4️⃣ Inheritance in ES5 vs. ES6**
+## **3️⃣ Inheritance in ES5 vs. ES6**
 ### **🔹 ES5 Prototype-Based Inheritance**
 ```js
 function Employee(name, salary) {
@@ -105,7 +101,7 @@ console.log(emp2.getSalary()); // ✅ "My salary is $6000"
 
 ---
 
-## **5️⃣ Summary**
+## **4️⃣ Summary**
 ✔ **Constructor Functions (ES5)** → Use **function-based prototype inheritance**.  
 ✔ **Classes (ES6)** → Provide a **cleaner, more readable** way to create objects.  
 ✔ **ES6 Classes use `extends` & `super`** for easier inheritance.  
