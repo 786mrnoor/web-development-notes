@@ -7,7 +7,7 @@ ES6 (ECMAScript 2015) and later versions introduced powerful features that impro
 ## **1️⃣ Arrow Functions (=>)**
 - **Arrow functions provide a cleaner and shorter syntax.**
 - They inherit `this` from the surrounding scope.
-- They do not support `arguments`, `super`, and `new` keyword.
+- They do not support `arguments`, and `new` keyword.
 - Avoid in object methods & constructors.
 
 ---

@@ -71,5 +71,5 @@ console.log(numbers);
 
 ## **6️⃣ Summary**
 ✔ **Higher-Order Functions** take a function as an argument or return a function.  
-✔ Examples: `map()`, `filter()`, `reduce()`, `forEach()`.  
+✔ Examples: `map()`, `filter()`, `reduce()`, `forEach()` and `sort`.  
 ✔ Makes code **cleaner, reusable, and functional**.  

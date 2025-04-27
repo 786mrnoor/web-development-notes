@@ -146,5 +146,3 @@ document.body.appendChild(button);
 | **`call(obj)`** | Calls function with `this` bound to `obj` |
 | **`apply(obj, [args])`** | Like `call()`, but passes arguments as an array |
 | **`bind(obj)`** | Returns a new function with `this` permanently bound |
-
-Would you like a **Markdown version** for GitHub? 🚀
