@@ -6,4 +6,4 @@
 
 ## [3. NextJS](nextjs/README.md)
 
-## [4. DBMS](dbms.md)
+## [4. RDBMS](rdbms/README.md)
