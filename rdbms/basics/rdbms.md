@@ -9,7 +9,7 @@ It’s a **software** that:
 
 Tables in RDBMS are **connected** using **keys** (Primary Key, Foreign Key).
 
-You use **SQL (Structured Query Language)** to interact with an RDBMS.
+We use **SQL (Structured Query Language)** to interact with an RDBMS.
 
 ---
 

@@ -17,6 +17,9 @@ console.log(Object.getPrototypeOf(obj)); // ✅ Outputs: {} (Object.prototype)
 ---
 
 ## **2️⃣ Prototype Chain**
+
+The prototype chain is a mechanism that allows objects to inherit properties and methods from other objects.
+
 When we access a property on an object:
 1. JavaScript **first checks** if the property exists on the object.  
 2. If **not found**, it moves **up the prototype chain** to the object's prototype.  
