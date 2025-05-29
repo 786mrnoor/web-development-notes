@@ -1,7 +1,7 @@
 # 🔑 Primary Key
 
 - **Primary Key** is a column (or group of columns) that **uniquely identifies** each row in a table.
-- **No two rows** can have the same primary key value.
+- Two rows can not have the same primary key value.
 - It **cannot be NULL** — every row must have a value for it.
 
 ✅ It makes sure each record is **unique** and **findable** easily.
@@ -25,7 +25,7 @@
 
 - **Foreign Key** is a column in one table that **links** to the **Primary Key** in another table.
 - It creates a **relationship** between two tables.
-- Helps **connect related data** across tables.
+- It helps to **connect related data** across tables.
 
 ✅ It enforces **data integrity** — only valid links are allowed.
 

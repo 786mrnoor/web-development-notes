@@ -3,8 +3,8 @@
 **RDBMS** stands for **Relational Database Management System**.
 
 It’s a **software** that:
-- **Stores** data in **tables** (rows and columns),
 - **Manages** the data (add, update, delete, search),
+- **Stores** data in **tables** (rows and columns),
 - **Maintains relationships** between different tables.
 
 Tables in RDBMS are **connected** using **keys** (Primary Key, Foreign Key).

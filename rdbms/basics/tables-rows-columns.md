@@ -11,7 +11,7 @@ Example table name: `Students`
 
 **👉 Columns:**
 - **Columns** are the **headings** (fields).
-- Each column represents **one piece of information** about the item.
+- Each column represents **one piece of information** about an item.
 - Example columns in `Students` table:  
   `ID`, `Name`, `Age`, `Class`
 
@@ -19,7 +19,7 @@ Example table name: `Students`
 
 **👉 Rows:**
 - **Rows** are the **actual data entries** (records).
-- Each row represents **one complete set of information** about an item.
+- Each row represents **a complete set of information** about an item.
 - Example row:  
   `1, John, 20, "Math"`
 
