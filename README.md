@@ -1,9 +1,13 @@
 # Web Development Notes 
 
-## [1. JavaScript](js/README.md)
+## [1️⃣. HTML](html/README.md)
 
-## [2. TypeScript](ts/README.md)
+## [2️⃣. CSS](css/README.md)
 
-## [3. NextJS](nextjs/README.md)
+## [3️⃣. JavaScript](js/README.md)
 
-## [4. RDBMS](rdbms/README.md)
+## [4️⃣. TypeScript](ts/README.md)
+
+## [5️⃣. NextJS](nextjs/README.md)
+
+## [6️⃣. RDBMS](rdbms/README.md)
