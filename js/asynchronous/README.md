@@ -1,6 +1,6 @@
 # **3. Asynchronous JavaScript**
 
-- [**Synchronous vs Asynchronous JavaScript:**](synchronous-vs-asynchronous-javascript.md).
+- [**Synchronous vs Asynchronous JavaScript**](synchronous-vs-asynchronous-javascript.md).
 - [**Promises**](promises.md): `.then()`, `.catch()`, `.finally()`
 - [**Async/Await**](async-await.md): Error handling with `try/catch`
 - [**Event Loop**](event-loop.md): Event loop behavior
