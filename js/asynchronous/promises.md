@@ -18,7 +18,8 @@ let myPromise = new Promise((resolve, reject) => {
 });
 ```
 
-## Promise methods
+**Promises have methods to handle their states:**
+
 - `.then()`: Used to handle the fulfilled state of a promise. It takes up to two arguments, the first argument is a callback function for the fulfilled case of the promise, and the second argument is a callback function for the rejected case.
 - `.catch()`: Used to handle the rejected state of a promise. It takes a callback function that will be executed when the promise is rejected.
 - `.finally()`: Used to execute code regardless of whether the promise is fulfilled or rejected. 

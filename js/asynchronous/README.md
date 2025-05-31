@@ -4,8 +4,6 @@
 - [**Promises**](promises.md): `.then()`, `.catch()`, `.finally()`
 - [**Async/Await**](async-await.md): Error handling with `try/catch`
 - [**Event Loop**](event-loop.md): Event loop behavior
-- **AJAX & Fetch API**: Making HTTP requests with `fetch()`, `XMLHttpRequest`
-- **WebSockets**: Real-time communication
 
 
 ## **5️⃣ Interview Takeaways**
