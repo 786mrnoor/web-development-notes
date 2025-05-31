@@ -10,42 +10,42 @@ CREATE DATABASE testDB;
 ## 2️⃣ **CREATE TABLE**
 
 ```sql
-CREATE TABLE Students (
-    StudentID INT PRIMARY KEY,
-    Name VARCHAR(100),
-    Age INT,
-    Class VARCHAR(50)
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    class VARCHAR(50)
 );
 ```
 
-👉 It Creates a `Students` table with 4 columns.
+👉 It Creates a `students` table with 4 columns.
 
 ---
 
 ## 3️⃣ Create Table Using Another Table
 
 ```sql
-CREATE TABLE TestTable AS
-    SELECT customername, contactname
-    FROM customers;
+CREATE TABLE test_table AS
+    SELECT name, age
+    FROM students;
 ```
-👉 It Creates a `TestTable` table with 2 columns from `customers` table.
+👉 It Creates a `test_table` table with 2 columns from `students` table.
 
 ## 4️⃣ CREATE INDEX
 ```sql
-CREATE INDEX idx_lastname
-ON Persons (LastName);
+CREATE INDEX idx_name
+ON students (name);
 ```
-👉 It creates an index named `idx_lastname` on the `LastName` column in the `Persons` table:
+👉 It creates an index named `idx_name` on the `name` column in the `students` table:
 
 ```sql
-CREATE INDEX idx_pname
-ON Persons (LastName, FirstName);
+CREATE INDEX idx_name_age
+ON students (name, age);
 ```
 
 ## 5️⃣ CREATE UNIQUE INDEX
 ```sql
-CREATE UNIQUE INDEX uidx_pid
-ON Persons (PersonID);
+CREATE UNIQUE INDEX uidx_student
+ON students (name, age, class);
 ```
-👉 It creates an index named `uidx_pid` on the `PersonID` column in the `Persons` table:
+👉 It creates an index named `uidx_student` on the `name`, `age`,  `class`, column in the `students` table:

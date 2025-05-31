@@ -1,6 +1,6 @@
 # async/await
 
-`async` and `await` keywords are used for managing asynchronous operations in a more readable and structured way. 
+`async` and `await` keywords are used to manage asynchronous operations in a more readable and structured way. 
 
 - `async` makes a function return a **Promise**.  
 - `await` **pauses** the function execution until the promise is fulfilled.  
