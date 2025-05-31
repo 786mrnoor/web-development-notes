@@ -1,15 +1,11 @@
-# **`this` Keyword & Binding in JavaScript** 🚀  
+# `this` Keyword & Binding in JavaScript🚀
 
-In JavaScript, the `this` keyword refers to the **execution context** (i.e., the object that "owns" the function being executed). However, **`this` behaves differently** based on how a function is invoked.  
-
-This guide covers:  
-✅ `this` in different contexts  
-✅ `call()`, `apply()`, `bind()`  
-✅ Arrow functions and lexical `this`  
+In JavaScript, the `this` keyword refers to the **execution context**. Its value depends on how the function is invoked.  
 
 ---
 
-## **1️⃣ `this` in Different Contexts**
+## 1️⃣ `this` in Different Contexts
+
 ### **🔹 Global Context (`window` or `globalThis`)**
 ```js
 console.log(this); // ✅ In browser: window, In Node.js: globalThis
@@ -75,6 +71,22 @@ obj.greet(); // ❌ "Hello, undefined" (Arrow functions do NOT have their own `t
 
 ---
 
+## **`this` in Event Listeners**
+```js
+const button = document.createElement("button");
+button.innerText = "Click me";
+
+button.addEventListener("click", function () {
+  console.log(this); // ✅ Refers to the button element
+});
+
+document.body.appendChild(button);
+```
+✔ In event listeners, `this` **refers to the element that triggered the event**.  
+
+---
+
+
 ## **2️⃣ `call()`, `apply()`, and `bind()`**
 These methods **explicitly bind `this`** to a specific object.
 
@@ -120,22 +132,8 @@ boundFunc(); // ✅ "Hi, I'm Frank"
 
 ---
 
-## **3️⃣ `this` in Event Listeners**
-```js
-const button = document.createElement("button");
-button.innerText = "Click me";
+## 3️⃣ Summary
 
-button.addEventListener("click", function () {
-  console.log(this); // ✅ Refers to the button element
-});
-
-document.body.appendChild(button);
-```
-✔ In event listeners, `this` **refers to the element that triggered the event**.  
-
----
-
-## **4️⃣ Summary**
 | Feature | Behavior |
 |---------|----------|
 | **Global `this`** | `window` (browser) or `globalThis` (Node.js) |

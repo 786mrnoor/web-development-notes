@@ -4,43 +4,28 @@ JavaScript uses **prototypal inheritance**, which allows objects to inherit prop
 
 ---
 
-## **1️⃣ What is a Prototype?**  
+## 1️⃣ What is a Inheritance?
+
+Inheritance allows objects to inherit properties and methods from other objects.
+
+## 2️⃣ What is a Prototype (chain)?
+
 In JavaScript, every object has an internal reference to another object called its **prototype**.  
-- If a property or method **is not found** on an object, JavaScript looks **up the prototype chain**.  
+
+When we access a property on an object:
+1. JavaScript **first checks** if the property exists on the object.  
+2. If **not found**, it moves **up the prototype chain** to the object's prototype.  
+3. This process continues until it reaches `Object.prototype`, which is the top of the chain. 
 
 🔹 **Example: Checking Prototype**
 ```js
 const obj = {};
 console.log(Object.getPrototypeOf(obj)); // ✅ Outputs: {} (Object.prototype)
 ```
-
 ---
 
-## **2️⃣ Prototype Chain**
+## 3️⃣ Constructor Functions & Prototypes
 
-The prototype chain is a mechanism that allows objects to inherit properties and methods from other objects.
-
-When we access a property on an object:
-1. JavaScript **first checks** if the property exists on the object.  
-2. If **not found**, it moves **up the prototype chain** to the object's prototype.  
-3. This process continues until it reaches `Object.prototype`, which is the top of the chain.  
-
-🔹 **Example: Prototype Chain in Action**
-```js
-const person = {
-  greet() {
-    return "Hello!";
-  }
-};
-
-const student = Object.create(person); // student inherits from person
-console.log(student.greet()); // ✅ Output: "Hello!" (from prototype)
-```
-✔ Since `greet` is not found on `student`, it looks **up the prototype chain**.
-
----
-
-## **3️⃣ Constructor Functions & Prototypes**
 Every function in JavaScript has a `prototype` property, which is used when creating new objects.
 
 🔹 **Example: Adding Methods to a Prototype**
@@ -62,7 +47,8 @@ console.log(alice.__proto__ === Person.prototype); // ✅ true
 
 ---
 
-## **4️⃣ Class-Based Inheritance (ES6)**
+## 4️⃣ Class-Based Inheritance (ES6)
+
 With **ES6 Classes**, prototype-based inheritance is more readable.
 
 🔹 **Example: Class Inheritance**
@@ -91,14 +77,17 @@ console.log(dog.speak()); // ✅ Output: "Buddy barks."
 
 ---
 
-## **5️⃣ Checking Prototype Inheritance**
+## 5️⃣ Checking Prototype Inheritance
+
 ### **Using `isPrototypeOf`**
+
 ```js
 console.log(Animal.prototype.isPrototypeOf(dog)); // ✅ true
 ```
 ✔ Checks if `Animal.prototype` is in `dog`'s prototype chain.
 
-### **Using `instanceof`**
+### Using `instanceof`
+
 ```js
 console.log(dog instanceof Dog); // ✅ true
 console.log(dog instanceof Animal); // ✅ true
@@ -108,7 +97,7 @@ console.log(dog instanceof Object); // ✅ true
 
 ---
 
-## **6️⃣ Summary**
+## 6️⃣ Summary
 ✔ **Prototype Chain** → Objects inherit properties from prototypes.  
 ✔ **Constructor Functions** → Use `.prototype` to share methods.  
 ✔ **ES6 Classes** → Provide a cleaner syntax for inheritance.  

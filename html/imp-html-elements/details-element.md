@@ -14,7 +14,7 @@ The `<details>` element is used to create a collapsible section that the user ca
 
 ## Events
 
-- `Toggle`: The toggle event is dispatched to the `<details>` element whenever its state changes between open and closed.
+- `Toggle`: The `toggle` event is dispatched to the `<details>` element whenever its state changes between open and closed.
 
 ```js
 details.addEventListener("toggle", (event) => {
@@ -35,7 +35,7 @@ details summary::marker,
 }
 
 details summary{
-  list-style: ‘none’;
+  list-style: none;
 }
 
 details::details-content{

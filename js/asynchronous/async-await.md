@@ -1,6 +1,9 @@
-# async/await (ES8)
+# async/await
+
+`async` and `await` are keywords used for managing asynchronous operations in a more readable and structured way. 
+
 - `async` makes a function return a **Promise**.  
-- `await` **pauses** execution until the Promise resolves.  
+- `await` **pauses** execution until the promise is fulfilled.  
 
 ```js
 async function fetchData() {
