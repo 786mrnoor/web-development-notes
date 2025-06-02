@@ -11,7 +11,7 @@
 ## 2. **SQL Basics**
 - [**DDL (Data Definition Language)**](sql-basics/ddl.md) – Creating structure
   - `CREATE`, `ALTER`, `DROP` tables
-- **DML (Data Manipulation Language)** – Working with data
+- [**DML (Data Manipulation Language)**](sql-basics/dml.md) – Working with data
   - `INSERT`, `UPDATE`, `DELETE`
 - **DQL (Data Query Language)** – Fetching data
   - `SELECT`
