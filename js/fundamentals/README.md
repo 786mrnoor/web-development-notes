@@ -1,4 +1,5 @@
 # JavaScript Fundamentals
+- [**statement, expression and declaration**](statement-expression-declaration.md)
 
 - [**Data Types:**](data-types.md) `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`, and objects.
 

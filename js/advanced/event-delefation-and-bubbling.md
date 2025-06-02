@@ -1,5 +1,13 @@
 # **Event Delegation & Bubbling in JavaScript** 🚀  
 
+## What is an Event?
+
+An event is a signal that something happened on the page — like:
+
+- Clicking a button
+- Typing in a field
+- Resizing the window
+
 ## **What is Event Bubbling?**
 When an event happens on an element, it **bubbles up** (propagates) to its parent, then grandparent, to the `window` object.
 
