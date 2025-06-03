@@ -10,18 +10,16 @@
 
 ## 2. **SQL Basics**
 - [**DDL (Data Definition Language)**](sql-basics/ddl.md) – Creating structure
-  - `CREATE`, `ALTER`, `DROP` tables
+  - `CREATE`, `ALTER`, `DROP` `TRUNCATE` `RENAME` tables
 - [**DML (Data Manipulation Language)**](sql-basics/dml.md) – Working with data
   - `INSERT`, `UPDATE`, `DELETE`
-- **DQL (Data Query Language)** – Fetching data
+- [**DQL (Data Query Language)**](sql-basics/dql.md) – Fetching data
   - `SELECT`
-- **DCL (Data Control Language)** – Managing permissions
-  - `GRANT`, `REVOKE`
-
 ---
 
 ## 3. **Important Concepts**
-- Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL)
+- [**Constraints**](important-concepts/constraints.md) - specify rules for the data in a table.
+  - `NOT NULL`, `UNIQUE`, `PRIMARY KEY`, `FOREIGN KEY`, `CHECK`, `DEFAULT`, `CREATE INDEX`
 - Data Types (INT, VARCHAR, DATE, etc.)
 - Indexes (for faster search)
 - Views
