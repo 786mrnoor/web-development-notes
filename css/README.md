@@ -15,3 +15,5 @@ CSS (Cascading Style Sheets) is a stylesheet language used to style web pages.
 ## 5️⃣ [CSS Positioning](positioning.md)
 
 ## 6️⃣ [CSS Flexbox](flexbox.md)
+
+## 7️⃣ [CSS Transition](transition.md)

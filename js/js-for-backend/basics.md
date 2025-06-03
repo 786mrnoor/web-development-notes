@@ -4,9 +4,14 @@
 
 ---
 
+## Non-Blocking
+- When NodeJS encounters a non-blocking operation, It doesn't wait for its completion.
+- Instead, it registers a callback function (or uses `promises` or `async/await`) to be executed when the operation is done.
+- Meanwhile, Node.js continues to execute other parts of the program.
+- This allows Node.js to handle multiple operations concurrently, improving efficiency.
 
 
-### NPM (Node Package Manager)
+## NPM (Node Package Manager)
 
 **npm** stands for **Node Package Manager**. It is:
 
