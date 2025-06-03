@@ -1,6 +1,6 @@
 # Node.js Basics
 
-**Node.js** is a **runtime environment** that lets run **JavaScript outside the browser**. It uses the **V8 engine**. It is non-blocking, fast, and ideal for I/O-heavy apps.
+**Node.js** is a **runtime environment** that lets us run **JavaScript outside the browser**. It uses the **V8 engine**. It is fast, non-blocking, and ideal for I/O-heavy apps.
 
 ---
 
@@ -43,7 +43,7 @@ You can:
 
 ## NPX (Node Package Execute)
 
-It comes bundled with **npm (v5.2.0+)** and allows you to **run Node.js packages directly from the command line** — **without installing them globally**.
+It comes bundled with **npm (v5.2.0+)** and allows us to **run Node.js packages directly from the command line** — **without installing them globally**.
 
 Packages run with `npx` are stored in a temporary cache. They don’t clutter your global setup.
 
