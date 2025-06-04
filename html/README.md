@@ -4,6 +4,9 @@
 
 - HTML describes the structure of a Web page.
 
+## HTML Tags
+The HTML tags are used to define the elements on the web page. They are the keywords that are enclosed inside the angle brackets(`<>`). The examples of HTML tags are `<div>`, `<p>`, `<a>`, `<span>`, `<img>` etc.
+
 ## HTML Element
 
 - An HTML element is defined by a start tag, some content, and an end tag.
@@ -23,6 +26,9 @@
 - The `<head>` element contains meta information about the HTML page.
 - The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab).
 - The `<body>` element is a container for all the visible contents.
+
+## HTML Meta Tags
+`<meta>` tags are used to define the metadata about the HTML document, **including character set**, **description**, **keywords**, **author**, and **viewport settings**. Placed within the `<head>` element.
 
 ## HTML Formatting Elements
 
@@ -124,3 +130,5 @@ The HTML `<canvas>` element is used to draw graphics on a web page.
 ### [`<details>`](imp-html-elements/details-element.md)
 
 ### [`<dialog>`](imp-html-elements/dialog-element.md)
+
+### `<iframe>`
