@@ -1,6 +1,6 @@
 # 🎯 CSS Transitions
 
-**CSS transitions** allow you to smoothly animate from one style to another when their CSS properties change.
+**CSS transitions** allow us to smoothly animate from one style to another when their CSS properties change.
 
 ---
 

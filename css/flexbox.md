@@ -13,17 +13,17 @@
 > - `display: flex;`
 
 > - `flex-direction`
->   - `row`
+>   - `row` - default
 >   - `column`
 >   - `row-reverse`
 >   - `column-reverse`
 
 > - `flex-wrap`
->   - `no-wrap`
+>   - `no-wrap` - default
 >   - `wrap`
   
 > - `justify-content`
->   - `normal`
+>   - `normal` - default
 >   - `flex-start`
 >   - `space-around`
 >   - `space-between`
@@ -32,14 +32,14 @@
 >   - `flex-end`
 
 > - `align-items`
->   - `normal`
+>   - `normal` - default
 >   - `flex-start`
 >   - `stretch`
 >   - `flex-end`
 >   - `baseline`
 
 > - `align-content` : It aligns the **flex lines**.
->   - `normal`
+>   - `normal` - default
 >   - `flex-start`
 >   - `space-around`
 >   - `space-between`
@@ -48,7 +48,7 @@
 >   - `stretch`
 
 > - `gap: row-gap column-gap;`
-> - `flex-flow: flex-direction flex-wrap`
+> - `flex-flow: flex-direction flex-wrap;`
 
 ## Properties for Flex Items
 
