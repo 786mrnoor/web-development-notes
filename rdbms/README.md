@@ -29,7 +29,7 @@
 ---
 
 ## 4. **Advanced SQL**
-- **Joins** (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN)
+- **Joins** (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, SELF JOIN, CROSS JOIN)
 - **Subqueries** (nested queries)
 - **Aggregate Functions** (`SUM()`, `COUNT()`, `AVG()`, `MAX()`, `MIN()`)
 - **GROUP BY** and **HAVING**
