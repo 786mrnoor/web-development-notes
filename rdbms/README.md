@@ -20,8 +20,8 @@
 ## 3. **Important Concepts**
 - [**Constraints**](important-concepts/constraints.md) - specify rules for the data in a table.
   - `NOT NULL`, `UNIQUE`, `PRIMARY KEY`, `FOREIGN KEY`, `CHECK`, `DEFAULT`, `CREATE INDEX`
-- Data Types (INT, VARCHAR, DATE, etc.)
-- Indexes (for faster search)
+- [**Data Types**](important-concepts/data-types.md) (INT, VARCHAR, DATE, etc.)
+- [**Indexes**](important-concepts/indexes.md) (for faster search)
 - Views
 - Stored Procedures and Functions
 - Triggers
@@ -29,11 +29,11 @@
 ---
 
 ## 4. **Advanced SQL**
-- **Joins** (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, SELF JOIN, CROSS JOIN)
-- **Subqueries** (nested queries)
-- **Aggregate Functions** (`SUM()`, `COUNT()`, `AVG()`, `MAX()`, `MIN()`)
-- **GROUP BY** and **HAVING**
-- **ORDER BY** and **LIMIT**
+- [**Joins**](advanced-sql/joins.md) (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, SELF JOIN, CROSS JOIN)
+- [**Subqueries**](advanced-sql/subqueries.md) (nested queries)
+- [**Aggregate Functions**](advanced-sql/aggregate-functions.md) (`SUM()`, `COUNT()`, `AVG()`, `MAX()`, `MIN()`)
+- [**GROUP BY** and **HAVING**](advanced-sql/groupby-and-having.md)
+- [**ORDER BY** and **LIMIT**](orderby-and-limit.md)
 
 ---
 

@@ -12,4 +12,3 @@
 | [`ALTER`](ddl/alter-command.md)    | adds, deletes, or modifies columns in a table. |
 | [`DROP`](ddl/drop-command.md)     | Deletes a table or database      |
 | [`TRUNCATE`](ddl/truncate-command.md) | Deletes all data but keeps table |
-| [`RENAME`](ddl/rename-command.md)   | Changes the name of a table      |
