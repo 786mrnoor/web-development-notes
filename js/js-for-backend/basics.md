@@ -23,7 +23,8 @@
 | Command               | Description                      |
 | --------------------- | -------------------------------- |
 | `npm init -y`         | Create default `package.json`    |
-| `npm install`         | Install all dependencies listed  |
+| `npm install <pkg>`         | Install all dependencies listed  |
+| `npm install <pkg> [-D \|\| --save-dev]`         | Install all devDependencies listed  |
 | `npm uninstall <pkg>` | Remove a package                 |
 | `npm update`          | Update outdated packages         |
 | `npm run <script>`    | Run a script from `package.json` |
