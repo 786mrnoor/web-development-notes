@@ -1,6 +1,6 @@
 # 🎯 CSS Transitions
 
-**CSS transitions** allow us to smoothly animate from one style to another when their CSS properties change.
+**CSS transitions** allow elements to smoothly animate from one style to another when their CSS properties change.
 
 ---
 
@@ -10,10 +10,10 @@
 transition: property duration timing-function delay;
 ```
 
-* `property`: The CSS property to animate (e.g. `width`, `color`)
-* `duration`: Time the animation takes (`s` or `ms`)
-* `timing-function`: Controls the speed of the transition (e.g. `ease`, `linear`)
-* `delay`: Specifies a delay before the transition starts. 
+- `property`: The CSS property to animate (e.g. `width`, `color`)
+- `duration`: Time the animation takes (`s` or `ms`)
+- `timing-function`: Controls the speed of the transition (e.g. `ease`, `linear`)
+- `delay`: Specifies a delay before the transition starts.
 
 ---
 
@@ -48,7 +48,6 @@ Controls **animation speed curve**:
 | `cubic-bezier(x1,y1,x2,y2)` | Custom easing                  |
 
 ---
-
 
 ## ✅ **4. Multiple Transitions**
 

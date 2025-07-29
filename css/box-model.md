@@ -1,4 +1,5 @@
 # CSS Box Model
+
 The CSS box model is essentially a box that wraps around every HTML element. It consists of: **content**, **padding**, **borders** and **margins**.
 
 - **Content** - The content of the box, where text and images appear.
