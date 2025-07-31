@@ -1,10 +1,4 @@
-# CSS
-CSS (Cascading Style Sheets) is a stylesheet language used to style web pages.
-
-## 1️⃣Types of CSS
-- **Inline CSS** (inside HTML elements)
-- **Internal CSS** (inside `<style>` in `<head>`)
-- **External CSS** (separate .css file)
+# 1️⃣ [CSS Introduction](introduction.md)
 
 ## 2️⃣ [CSS Selectors & Declaration Block](selectors-and-declaration-block.md)
 

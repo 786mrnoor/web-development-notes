@@ -5,19 +5,20 @@
 - HTML describes the structure of a Web page.
 
 ## HTML Tags
+
 The HTML tags are used to define the elements on the web page. They are the keywords that are enclosed inside the angle brackets(`<>`). The examples of HTML tags are `<div>`, `<p>`, `<a>`, `<span>`, `<img>` etc.
 
 ## HTML Element
 
-- An HTML element is defined by a start tag, some content, and an end tag.
-- Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have an end tag.
+- An HTML element is defined by a opening tag, some content, and a closing tag.
+- Some HTML elements have no content (like the `<br>` element). These elements are called empty elements. Empty elements do not have a closing tag.
 
 ## HTML Attributes
 
-- All HTML elements can have attributes
-- Attributes provide additional information about elements
-- Attributes are always specified in the start tag
-- Attributes usually come in name/value pairs like: `name="value"`
+- All HTML elements can have attributes.
+- Attributes provide additional information about elements.
+- Attributes are always specified in the opening tag.
+- Attributes usually come in name/value pairs like: `name="value"`.
 
 ## Example Explained
 
@@ -28,6 +29,7 @@ The HTML tags are used to define the elements on the web page. They are the keyw
 - The `<body>` element is a container for all the visible contents.
 
 ## HTML Meta Tags
+
 `<meta>` tags are used to define the metadata about the HTML document, **including character set**, **description**, **keywords**, **author**, and **viewport settings**. Placed within the `<head>` element.
 
 ## HTML Formatting Elements
@@ -44,7 +46,7 @@ The HTML tags are used to define the elements on the web page. They are the keyw
 - `<sup>` - Superscript text
 
 > **Note:** The `<strong>` tag is similar to the `<b>` tag but screen readers consider `<strong>` text to be more important and read it with a different tone to convey its importance.  
-**Screen Reader:** A screen reader is a software used by visually impaired people that helps them use a website. It translates on screen information into speech.
+> **Screen Reader:** A screen reader is a software used by visually impaired people that helps them use a website. It translates on screen information into speech.
 
 ## COLOR
 
@@ -56,6 +58,7 @@ The HTML tags are used to define the elements on the web page. They are the keyw
 - To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
 
 **rgba (red, green, blue, alpha):**
+
 - The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all).
 
 ### HEX Color Values
@@ -66,7 +69,7 @@ In HTML, a color can be specified using a hexadecimal value in the form:
 
 **Shades of Gray**: Shades of gray are often defined using equal values for all three parameters:
 
-- `rgb(60, 60, 60)` 
+- `rgb(60, 60, 60)`
 - `rgb(100, 100, 100)`
 - `#c6c6c6`
 - `#666`
@@ -84,19 +87,21 @@ In HTML, a color can be specified using a hexadecimal value in the form:
 A favicon is a small image displayed next to the page title in the browser tab.
 
 ## HTML Block and Inline Elements
+
 - A block-level element always starts on a new line.
 - A block-level element always takes up the full width available.
-- An inline element does not start on a new line.
+- An inline element does not always starts on a new line.
 - An inline element only takes up the required width.
+- `width`, `height`, `margin-top` and `margin-bottom` propeties does not work on **non-replaced inline elements**
 
 ## HTML File Paths
 
-| Example    | Description |
-| -------- | ------- |
-| `<img src="picture.jpg">`	| The "picture.jpg" file is located in the same folder as the current page. |
-| `<img src="images/picture.jpg">` | The "picture.jpg" file is located in the images folder in the current folder. |
+| Example                           | Description                                                                            |
+| --------------------------------- | -------------------------------------------------------------------------------------- |
+| `<img src="picture.jpg">`         | The "picture.jpg" file is located in the same folder as the current page.              |
+| `<img src="images/picture.jpg">`  | The "picture.jpg" file is located in the images folder in the current folder.          |
 | `<img src="/images/picture.jpg">` | The "picture.jpg" file is located in the images folder at the root of the current web. |
-| `<img src="../picture.jpg">` | The "picture.jpg" file is located in the folder one level up from the current folder. |
+| `<img src="../picture.jpg">`      | The "picture.jpg" file is located in the folder one level up from the current folder.  |
 
 ## HTML Semantic Elements
 
