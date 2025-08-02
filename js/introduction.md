@@ -67,23 +67,8 @@ function greet() {
 }
 ```
 
-📌 **Key Point:** Declarations **introduce new identifiers** into the program.
+## 4️⃣ Parameters vs Arguments
 
----
+- **Parameters** are the **placeholders** defined in a function declaration.
 
-### **Comparison Table**
-
-| Feature              | Statement          | Expression       | Declaration                               |
-| -------------------- | ------------------ | ---------------- | ----------------------------------------- |
-| **Purpose**          | Performs an action | Produces a value | Introduces a variable, function, or class |
-| **Returns Value?**   | ❌ No              | ✅ Yes           | ❌ No                                     |
-| **Example**          | `if (x > 10) {}`   | `5 + 3`          | `let x = 5;`                              |
-| **Can be assigned?** | ❌ No              | ✅ Yes           | ❌ No                                     |
-
----
-
-### **Key Interview Takeaways**
-
-✔ **Statements** perform actions but do not return values.  
-✔ **Expressions** return values and can be assigned to variables.  
-✔ **Declarations** introduce variables, functions, or classes.
+- **Arguments** are the actual values passed to the function when it’s called.
