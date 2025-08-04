@@ -6,7 +6,7 @@
 
 - [**Higher-Order Functions:**](higher-order-functions.md) `map()`, `filter()`, `reduce()`, `sort()`, etc.
 
-- [**Event Handling:**](event-delefation-and-bubbling.md) Bubbling, Capturing and Event Delegation.
+- [**Event Handling:**](event-handling.md) Bubbling, Capturing and Event Delegation.
 
 - [**Debouncing & Throttling:**](debounce-and-throttling.md) Performance optimization techniques.
 
