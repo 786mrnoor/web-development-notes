@@ -10,7 +10,7 @@ An event is a signal that something happened on the page — like:
 
 ## **What is Event Bubbling?**
 
-When an event happens on an element, it **bubbles up** (propagates) to its parent, then grandparent and so on until it reaches the `window` object.
+In bubbling phase, event handleres are called first on the target element, then on its parent and so on until it reaches the `window` object.
 
 ---
 
