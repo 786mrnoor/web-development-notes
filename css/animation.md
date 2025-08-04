@@ -2,6 +2,11 @@
 
 An animation lets an element gradually change from one style to another.
 
+It consist of two components:
+
+1. A style describing the CSS animation.
+1. keyframes.
+
 ## `@keyframes`
 
 control the steps in an animation sequence by defining CSS styles for points along the animation sequence.
@@ -10,9 +15,15 @@ control the steps in an animation sequence by defining CSS styles for points alo
 
 ```css
 @keyframes mymove {
-  from {top: 0px;}  /* from is same as 0% */
-  50%  {background: blue !important;} /* ignored */
-  to   {top: 200px;} /* to is same as 100% */
+  from {
+    top: 0px;
+  } /* from is same as 0% */
+  50% {
+    background: blue !important;
+  } /* ignored */
+  to {
+    top: 200px;
+  } /* to is same as 100% */
 }
 ```
 
@@ -29,7 +40,7 @@ control the steps in an animation sequence by defining CSS styles for points alo
   - `alternate` - The animation is played forwards first, then backwards
   - `alternate-reverse` - The animation is played backwards first, then forwards
 - `animation-fill-mode` - Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)
-  - `none` - 	Default value. Animation will not apply any styles to the element before or after it is executing
+  - `none` - Default value. Animation will not apply any styles to the element before or after it is executing
   - [`forwards`](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-fill-mode) - The element will retain the style values that is set by the last keyframe (depends on animation-direction and animation-iteration-count)
   - [`backwards`](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-fill-mode2) - The element will get the style values that is set by the first keyframe (depends on animation-direction), and retain this during the animation-delay period
   - [`both`](https://www.w3schools.com/cssref/tryit.php?filename=trycss3_animation-fill-mode3) - The animation will follow the rules for both forwards and backwards, extending the animation properties in both directions
