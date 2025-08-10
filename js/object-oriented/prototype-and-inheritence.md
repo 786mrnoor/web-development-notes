@@ -1,6 +1,6 @@
-# **Prototype & Inheritance in JavaScript** 🚀  
+# **Prototype & Inheritance in JavaScript** 🚀
 
-JavaScript uses **prototypal inheritance**, which allows objects to inherit properties and methods from other objects through the **prototype chain**.  
+JavaScript uses **prototypal inheritance**, which allows objects to inherit properties and methods from other objects through the **prototype chain**.
 
 ---
 
@@ -10,18 +10,21 @@ Inheritance allows objects to inherit properties and methods from other objects.
 
 ## 2️⃣ What is a Prototype (chain)?
 
-In JavaScript, every object has an internal reference to another object called its **prototype**.  
+In JavaScript, every object has an internal reference to another object called its **prototype**.
 
 When we access a property on an object:
-1. JavaScript **first checks** if the property exists on the object.  
-2. If **not found**, it moves **up the prototype chain** to the object's prototype.  
-3. This process continues until it reaches `Object.prototype`, which is the top of the chain. 
+
+1. JavaScript **first checks** if the property exists on the object.
+2. If **not found**, it moves **up the prototype chain** to the object's prototype.
+3. This process continues until the property is not found or it reaches `null`, which ends the chain.
 
 🔹 **Example: Checking Prototype**
+
 ```js
 const obj = {};
 console.log(Object.getPrototypeOf(obj)); // ✅ Outputs: {} (Object.prototype)
 ```
+
 ---
 
 ## 3️⃣ Constructor Functions & Prototypes
@@ -29,6 +32,7 @@ console.log(Object.getPrototypeOf(obj)); // ✅ Outputs: {} (Object.prototype)
 Every function in JavaScript has a `prototype` property, which is used when creating new objects.
 
 🔹 **Example: Adding Methods to a Prototype**
+
 ```js
 function Person(name) {
   this.name = name;
@@ -43,6 +47,7 @@ const alice = new Person("Alice");
 console.log(alice.greet()); // ✅ Output: "Hello, my name is Alice."
 console.log(alice.__proto__ === Person.prototype); // ✅ true
 ```
+
 ✔ The method `greet()` is stored in the **prototype**, not in each instance.
 
 ---
@@ -52,6 +57,7 @@ console.log(alice.__proto__ === Person.prototype); // ✅ true
 With **ES6 Classes**, prototype-based inheritance is more readable.
 
 🔹 **Example: Class Inheritance**
+
 ```js
 class Animal {
   constructor(name) {
@@ -72,8 +78,9 @@ class Dog extends Animal {
 const dog = new Dog("Buddy");
 console.log(dog.speak()); // ✅ Output: "Buddy barks."
 ```
+
 ✔ `Dog` **inherits** from `Animal` using `extends`.  
-✔ `super()` calls the **parent class constructor**.  
+✔ `super()` calls the **parent class constructor**.
 
 ---
 
@@ -84,6 +91,7 @@ console.log(dog.speak()); // ✅ Output: "Buddy barks."
 ```js
 console.log(Animal.prototype.isPrototypeOf(dog)); // ✅ true
 ```
+
 ✔ Checks if `Animal.prototype` is in `dog`'s prototype chain.
 
 ### Using `instanceof`
@@ -93,12 +101,14 @@ console.log(dog instanceof Dog); // ✅ true
 console.log(dog instanceof Animal); // ✅ true
 console.log(dog instanceof Object); // ✅ true
 ```
+
 ✔ `dog` is an instance of **both** `Dog` and `Animal` due to inheritance.
 
 ---
 
 ## 6️⃣ Summary
+
 ✔ **Prototype Chain** → Objects inherit properties from prototypes.  
 ✔ **Constructor Functions** → Use `.prototype` to share methods.  
 ✔ **ES6 Classes** → Provide a cleaner syntax for inheritance.  
-✔ **Checking Prototype** → Use `instanceof`, `isPrototypeOf`, or `Object.getPrototypeOf()`. 
+✔ **Checking Prototype** → Use `instanceof`, `isPrototypeOf`, or `Object.getPrototypeOf()`.
