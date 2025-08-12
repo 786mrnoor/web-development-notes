@@ -1,14 +1,15 @@
 # Event Loop
 
-JavaScript is **single-threaded**, meaning it can execute **one operation at a time**. However, it uses the **Event Loop** to handle asynchronous tasks like API calls, setTimeout, and event listeners efficiently.
+JavaScript is a **single-threaded**, it can execute **one operation at a time**, so it uses the **Event Loop** to handle asynchronous tasks without blocking the main thread.
 
 ## How the Event Loop Works?
 
-The **Event Loop** has **three main parts**:
+The **Event Loop** has **four parts**:
 
 1. **Call Stack**
-2. **Web APIs**
-3. **Queues: Microtask Queue** and **Callback Queue(Macrotask)**
+1. **Web/Runtime APIs**
+1. **Microtask Queue**
+1. **Callback Queue(Macrotask)**
 
 **The Event Loop continuously monitors theses parts**
 
