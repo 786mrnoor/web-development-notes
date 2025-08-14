@@ -46,7 +46,8 @@ app.post("/contact", (req, res) => {
 
 ## 🛠️ 4. Middleware
 
-Middleware functions can **modify requests/responses** or handle things like logging, security, etc.
+- Middleware intercepts requests before it reaches the intended route handler.
+- Middleware functions can **modify requests/responses** or handle things like logging, security, etc.
 
 ```js
 app.use(express.json()); // Parse incoming JSON
