@@ -6,6 +6,21 @@ Git is a distributed version control system that tracks changes in code.
 
 GitHub is a cloud-based hosting service for Git repositories.
 
+## Key Git Concepts
+
+- **Working Directory** → Where you edit files.
+- **Stage** → Tell Git which changes you want to save next.
+- **Local Repository**→ A folder where Git tracks your project and its history.
+- **Remote Repository** → GitHub/other hosting service.
+- **Commit** → Save a snapshot of your staged changes.
+- **Clone** → Make a copy of a remote repository on your computer.
+- **Branch** → Work on different versions or features at the same time.
+- **Merge** → Combine changes from different branches.
+- **Pull** → Get the latest changes from a remote repository.
+- **Push** → Send your changes to a remote repository.
+- **Untracked File** → Any file in your project folder that Git is not yet tracking. These are files you've created or copied into the folder, but haven't told Git to watch.
+- **Tracked File** → A tracked file is a file that Git is watching for changes. To make a file tracked, you need to add it to the staging area.
+
 ## Common Commands
 
 | Command               | Purpose                                   |
