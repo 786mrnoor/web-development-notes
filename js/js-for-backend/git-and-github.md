@@ -13,10 +13,10 @@ GitHub is a cloud-based hosting service for Git repositories.
 - **Working Directory** → Where you edit files.
 - **Stage** → which changes to be included in the next commit.
 - **Local Repository**→ A folder where Git tracks your project and its history.
-- **Remote Repository** → GitHub/other hosting service.
+- **Remote Repository** → It is version of your project's repository that is hosted on a server or a code hosting service like GitHub,
 - **Commit** → Save a snapshot of your staged changes.
 - **Clone** → Make a copy of a remote repository on your computer.
-- **Branch** → Work on different versions or features at the same time.
+- **Branch** → A branch represents an independent line of development within a repository. It allows to work on different versions or features at the same time.
 - **Merge** → Combine changes from different branches.
 - **Pull** → Get the latest changes from a remote repository.
 - **Push** → Send your changes to a remote repository.
