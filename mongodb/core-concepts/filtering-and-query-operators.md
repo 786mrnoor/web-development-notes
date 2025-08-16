@@ -14,6 +14,8 @@ MongoDB provides **powerful query operators** to filter documents. These operato
 | `$gte`   | Greater than or equal      | `{ age: { $gte: 21 } }`                   |
 | `$lt`    | Less than                  | `{ age: { $lt: 30 } }`                    |
 | `$lte`   | Less than or equal         | `{ age: { $lte: 25 } }`                   |
+| `$in`    | Matches any value in array | `{ course: { $in: ["DS", "AI"] } }`       |
+| `$nin`   | Not in the array           | `{ course: { $nin: ["Python", "C++"] } }` |
 
 ---
 
@@ -41,8 +43,6 @@ MongoDB provides **powerful query operators** to filter documents. These operato
 
 | Operator     | Description                                      | Example                                             |
 | ------------ | ------------------------------------------------ | --------------------------------------------------- |
-| `$in`    | Matches any value in array | `{ course: { $in: ["DS", "AI"] } }`       |
-| `$nin`   | Not in the array           | `{ course: { $nin: ["Python", "C++"] } }` |
 | `$all`       | Matches all elements in array                    | `{ skills: { $all: ["HTML", "CSS"] } }`             |
 | `$size`      | Matches array with given size                    | `{ skills: { $size: 3 } }`                          |
 | `$elemMatch` | Matches documents in array that match conditions | `{ scores: { $elemMatch: { $gt: 90, $lt: 100 } } }` |
@@ -65,8 +65,8 @@ db.students.find({
   $and: [
     { age: { $gte: 20, $lte: 25 } },
     { course: { $in: ["Web Dev", "DS"] } },
-    { isStudent: true }
-  ]
+    { isStudent: true },
+  ],
 });
 ```
 
@@ -74,8 +74,8 @@ db.students.find({
 
 ### 📌 Notes
 
-* You can use **dot notation** to query nested fields:
+- You can use **dot notation** to query nested fields:
   `{ "address.city": "Delhi" }`
-* Combine operators for more complex filters.
+- Combine operators for more complex filters.
 
 ---
