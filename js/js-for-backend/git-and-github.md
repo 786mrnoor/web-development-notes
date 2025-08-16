@@ -2,6 +2,8 @@
 
 Git is a distributed version control system that tracks changes in code.
 
+**Distributed** → Each user has a complete copy of the project's history and code on their local machine, rather than relying on a central server for all versioning information.
+
 ## GitHub
 
 GitHub is a cloud-based hosting service for Git repositories.
@@ -9,7 +11,7 @@ GitHub is a cloud-based hosting service for Git repositories.
 ## Key Git Concepts
 
 - **Working Directory** → Where you edit files.
-- **Stage** → Tell Git which changes you want to save next.
+- **Stage** → which changes to be included in the next commit.
 - **Local Repository**→ A folder where Git tracks your project and its history.
 - **Remote Repository** → GitHub/other hosting service.
 - **Commit** → Save a snapshot of your staged changes.
