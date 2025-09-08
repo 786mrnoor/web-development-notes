@@ -1,3 +1,9 @@
+## [hooks:](hooks.md)
+
+- `useEffect`
+- `useRef`
+- `useContext`
+
 ## Lifting state up
 
 "Lifting state up" in React is a pattern where the state that needs to be shared between multiple components is moved from a child component to its closest common ancestor component. This ensures a single source of truth for that shared state and facilitates communication and synchronization between components.
@@ -8,7 +14,7 @@
 
 - Controlled Components are the components whose state and behaviors are managed by React components using states (`value` + `onChange`).
 
-## Uncontrolled Components:
+### Uncontrolled Components:
 
 - Uncontrolled Components manage their own state and control their behaviors with the help of DOM.
 

@@ -58,6 +58,6 @@ function Greeting({ name }) {
 ## Why keys in lists?
 
 - "lists" refer to the rendering of multiple components or elements based on a collection of data, typically an array.
+- Each element in a list must have a unique `key` prop.
 - Keys help React identify which items changed, added, or removed. Improves reconciliation.
-- Keys are unique string attributes that must be provided to each element when rendering a list in React.
 - When list items are reordered or filtered, keys help React maintain the correct state of individual components by associating them with their unique identifiers.
