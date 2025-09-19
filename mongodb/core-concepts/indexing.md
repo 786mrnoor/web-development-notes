@@ -8,7 +8,7 @@
 ## 🔍 2. **Default Index**
 
 - Every document has an `_id` field.
-- MongoDB **automatically creates an index on `_id`**.
+- MongoDB **automatically creates a unique index on `_id`**.
 
 ```js
 db.students.find({ _id: ObjectId("...") }); // fast
@@ -31,10 +31,31 @@ db.students.createIndex({ age: -1 }); // descending
 db.students.createIndex({ course: 1, age: -1 });
 ```
 
-### ➤ Unique Index
+### ➤ Multikey Index
+
+Multikey indexes collect and sort data from fields containing array values. Multikey indexes improve performance for queries on array fields.
 
 ```js
-db.students.createIndex({ email: 1 }, { unique: true });
+db.<collection>.createIndex( { '<arrayField>': '<sortOrder>' } )
+```
+
+### ➤ Text Index
+
+```js
+db.students.createIndex({ name: "text", bio: "text" }, { wight: 1000, bio: 1 });
+```
+
+### ➤ Options
+
+```js
+{
+  unique: Boolean,
+  name: string,
+  partialFilterExpression: '<filter-expression>'
+  expireAfterSeconds: Number,
+  background: true
+}
+
 ```
 
 ---

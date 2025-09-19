@@ -25,7 +25,7 @@
 
 - ✅ [Filtering and Query Operators](core-concepts/filtering-and-query-operators.md): `$gt`, `$lt`, `$in`, `$and`, `$or`, etc.
 - ✅ [Update Operators](core-concepts/update-operators.md): `$set`, `$unset`, `$inc` etc.
-- ✅ [Indexing](core-concepts/indexing.md)
+- ✅ [Indexing](core-concepts/indexing.md): creating, viewing and dropping indexes.
 - ✅ [Sorting, Projection, Pagination](sorting-projection-pagination.md)
 - ✅ [Aggregation Pipelines](core-concepts/aggregation-pipeline.md)
 
