@@ -1,5 +1,8 @@
 # HTTP Status Codes
 
+- HTTP status codes are three-digit numbers that **indicate the result** of an HTTP request.
+- They are grouped into five classes
+
 ## 🔵 1xx — Informational
 
 > _Request received, continuing process._
